@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Names Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Beautiful Page!</h1>
+        <div class="names">
+            <h2>Meet Our Amazing Friends:</h2>
+            <ul id="nameList">
+                <li>Pragya</li>
+                <li>Sanjana</li>
+                <li>Prerna</li>
+                <li>Anchita</li>
+                <li>Debamita</li>
+                <li>Sushmita</li>
+                <li>Ramiz</li>
+            </ul>
+        </div>
+        <button id="surpriseButton">Click for a Surprise!</button>
+        <div id="surpriseMessage" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
